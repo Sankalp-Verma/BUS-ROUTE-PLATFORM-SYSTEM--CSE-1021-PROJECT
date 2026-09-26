@@ -36,3 +36,18 @@ Bus-Route-Platform-System
 │   └── workflow.md
 ├── README.md
 └── statement.md
+
+## How to Run
+
+Open the terminal in the main project folder and run:
+
+```bash
+python -m src.main
+
+## Testing
+
+Run the tests using:
+
+python -m pytest
+
+The tests check bus platforms, destinations, and invalid bus numbers.
