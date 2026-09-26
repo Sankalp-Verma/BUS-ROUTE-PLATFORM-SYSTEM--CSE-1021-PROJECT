@@ -13,7 +13,6 @@
             |             |
             v             v
          bus_data.py <----+
-```
 User
  |
  +--> View Available Buses
