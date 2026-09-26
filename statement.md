@@ -36,3 +36,20 @@ The system is intended for students, passengers, and other users who need quick 
 ## Project Structure
 
 The project is divided into separate modules for better organization and maintainability. Bus data is stored separately, bus-related functions are handled in `bus_functions.py`, platform checking is handled in `platform_checker.py`, and `main.py` controls the main program flow.
+
+## Non-Functional Requirements
+
+### Performance
+The system should provide bus information and platform results quickly.
+
+### Usability
+The system should have a simple menu-driven interface that is easy to understand and use.
+
+### Reliability
+The system should provide consistent results for valid bus numbers and platform checks.
+
+### Maintainability
+The program is divided into separate modules so that functions and data can be updated easily.
+
+### Error Handling
+The system should handle invalid bus numbers and invalid menu choices without crashing.
