@@ -13,6 +13,9 @@
             |             |
             v             v
          bus_data.py <----+
+```
+## Use Case Diagram
+```text
 User
  |
  +--> View Available Buses
@@ -22,6 +25,9 @@ User
  +--> View Bus Details
  |
  +--> Exit Program
+```
+## Component Diagram
+```text
  main.py
   |
   +--> bus_functions.py
@@ -31,9 +37,13 @@ User
   +--> platform_checker.py
           |
           +--> bus_functions.py
+```
+## Sequence Diagram
+```text
 User -> main.py: Select option
 main.py -> bus_functions.py: Request bus information
 bus_functions.py -> bus_data.py: Read bus data
 bus_data.py -> bus_functions.py: Return data
 bus_functions.py -> main.py: Return result
 main.py -> User: Display result
+```
